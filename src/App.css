@@ -1,0 +1,76 @@
+body{
+  margin: 0px;
+  font-family: cursive;
+  background-color: rgb(182, 0, 248);
+
+}
+.mainHead{
+padding: 50px;
+}
+.quizHead{
+background-color: rgb(238, 238, 238);
+width: 100vh;
+height: 60vh;
+margin: auto;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+padding: 50px;
+}
+.selectedAnswer{
+  background-color: rgb(201, 143, 222);
+  color: black;
+  width: auto;
+border-radius: 10px;
+border: 1px solid purple;
+/* text-align: center; */
+
+}
+.options{
+  margin-left: 30px;
+  margin-top: -50px;
+  /* text-decoration: none; */
+  list-style: none;
+    /* border: 1px solid gray; */
+}
+.listOption{
+  /* border: 1px solid gray; */
+  cursor: pointer;
+  list-style: none;
+
+
+}
+.quizContent{
+  /* margin: auto; */
+  padding: 20px;
+}
+.btn{
+  padding: 10px;
+  /* background-color: blueviolet; */
+  border-radius: 10px;
+ /* position: static; */
+ margin-left: 80px;
+ width: 100px;
+  color: white;
+  color: rgb(169, 168, 168);
+}
+.resultContainer{
+  background-color: rgb(238, 238, 238);
+width: 40vh;
+height: 60vh;
+margin: auto;
+text-align: center;
+border-radius: 10px;
+font-size: 20px;
+letter-spacing: 1.3px;
+}
+.addLeadingZero{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: rgb(78, 1, 85);
+
+}
+.addLeadingZeroSpan1{
+  font-size: 20px;
+}
